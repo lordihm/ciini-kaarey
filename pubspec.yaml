@@ -1,0 +1,43 @@
+name: ciini_kaarey
+description: "Ciini Kaarey — Générateur de Khatim (carrés magiques soufis) pour Android et iOS."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Stockage local
+  shared_preferences: ^2.3.2
+
+  # UI
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+  # Utilitaires
+  intl: any
+  equatable: ^2.0.5
+
+  # Export & partage
+  pdf: ^3.11.1
+  printing: ^5.13.2
+  share_plus: ^10.0.2
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
