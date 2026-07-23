@@ -1,7 +1,6 @@
 import 'package:ciini_kaarey/main.dart';
 import 'package:ciini_kaarey/services/storage_service.dart';
 import 'package:ciini_kaarey/ui/screens/configuration_screen.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
